@@ -121,7 +121,7 @@ public class DiseaseAnalysis {
                     + "";
         } else {
             return "You May Affected By Disease \n"
-                    + "\n\t\t\t\t" + disease + "\n\n please take care for this disease!\n resent health station for more treatment.\n"+predicted;
+                    + "\n\t\t\t\t" + disease + "\n\n please take care for this disease!\n resent health station for more treatment.\n"+predicted+"\n\n"+DiseaseDiscription.discription(disease);
         }
     }
 }
