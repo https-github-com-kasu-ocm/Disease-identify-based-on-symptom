@@ -10,7 +10,8 @@ public class DiseaseDiscription {
 	discribe.put("Fungal infection", "Some fungi reproduce through tiny spores in the air. \nYou can inhale the spores or they can land on you. \nAs a result, fungal infections often start in the lungs or on the skin.\n You are more likely to get a fungal infection if you have a \nweakened immune system or take antibiotics.");
 	discribe.put("Drug Reaction","A drug allergy is an allergic reaction \nto a medication. With an allergic reaction, \nyour immune system, which fights \ninfection and disease, reacts to the drug. \nThis reaction can cause symptoms such as rash, fever, and trouble breathing. \nTrue drug allergy is not common.");
 	discribe.put("Jaundice"," Jaundice \nis a condition in which the skin,\n whites of the eyes and mucous membranes \nturn yellow because of a high level of bilirubin, \na yellow-orange bile pigment. \nJaundice has many causes, \nincluding hepatitis, gallstones and tumors. \nIn adults, jaundice usually doesn't need to be treated.");
-	discribe.put("Chronic cholestasis","Chronic cholestatic diseases, \\nwhether occurring in infancy, \\nchildhood or adulthood, are characterized by defective bile acid transport from\\n the liver to the intestine, which is caused by primary damage to \\nthe biliary epithelium in most cases.");
+	discribe.put("Chronic cholestasis","Chronic cholestatic diseases, \\nwhether occurring in infancy, \\nchildhood or adulthood, are characterized by defective bile acid transport from\\n the liver to the intestine, which is caused by primary damage to \\nthe biliary epithelium in most cases");
+	discribe.put("Psoriasis","Psoriasis is a skin disorder that causes skin cells to multiply up to 10 times faster than normal. \nThis makes the skin build up into bumpy red patches covered with white scales.");
 	
 	for (Map.Entry<String,String> entry : discribe.entrySet())
 	 {
