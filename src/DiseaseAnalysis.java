@@ -103,8 +103,8 @@ public class DiseaseAnalysis {
  int length=sympwithdise.size();
      for (Map.Entry<String, ArrayList<String>> entry : sympwithdise.entrySet()) {
      key = entry.getKey();
-   value = entry.getValue();
-    max = value.size()/input.length;
+    value = entry.getValue();
+    max = value.size();
    if(max>predicted)
    {
       
