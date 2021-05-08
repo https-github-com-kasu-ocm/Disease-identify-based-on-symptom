@@ -12,6 +12,8 @@ public class DiseaseDiscription {
 	discribe.put("Jaundice"," Jaundice \nis a condition in which the skin,\n whites of the eyes and mucous membranes \nturn yellow because of a high level of bilirubin, \na yellow-orange bile pigment. \nJaundice has many causes, \nincluding hepatitis, gallstones and tumors. \nIn adults, jaundice usually doesn't need to be treated.");
 	discribe.put("Chronic cholestasis","Chronic cholestatic diseases, \\nwhether occurring in infancy, \\nchildhood or adulthood, are characterized by defective bile acid transport from\\n the liver to the intestine, which is caused by primary damage to \\nthe biliary epithelium in most cases");
 	discribe.put("Psoriasis","Psoriasis is a skin disorder that causes skin cells to multiply up to 10 times faster than normal. \nThis makes the skin build up into bumpy red patches covered with white scales.");
+	discribe.put("Psoriasis","Psoriasis is a skin disorder that causes skin cells to multiply");
+	
 	
 	for (Map.Entry<String,String> entry : discribe.entrySet())
 	 {
